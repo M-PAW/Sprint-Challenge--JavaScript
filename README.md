@@ -32,9 +32,15 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    a. Map returns / constructs a new array, forEach only itterates through an array.
+
 2. What is the difference between a function and a method?
 
+    a. a method is part of an object, both are reusable with the key differece being that in order to use a method, whatever is invoking the method must be derived from the same class.
+
 3. What is closure?
+
+    a. a closure is nested inside a function/another function, and allows access to higher levels of scope based on the behavior of JS.
 
 4. Describe the four rules of the 'this' keyword.
 
