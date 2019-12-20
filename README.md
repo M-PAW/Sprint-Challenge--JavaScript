@@ -44,7 +44,14 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
+      I. is the function being called using "new" ?
+     II. is the finction called as a method such as obj.function?
+    III. is strict mode being used to conntrol its scope, if not then it's global (i.e. window)
+     IV. Has it been called by one of the following: call(), apply(), or bind()?
+
 5. Why do we need super() in an extended class?
+
+    a. It's used to link to properties of the parent class and is required before "this" can be used in the extended class
 
 ## Project Set up
 
